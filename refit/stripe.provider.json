@@ -1,0 +1,23 @@
+{
+  "id": "stripe-full",
+  "packageName": "stripe",
+  "defaultImport": true,
+  "namedExport": "Stripe",
+  "constructorCalls": true,
+  "apiVersion": {
+    "constructorArgument": 1,
+    "property": "apiVersion",
+    "requestArguments": [
+      1,
+      2
+    ]
+  },
+  "operations": [
+    {
+      "resource": "checkout.sessions",
+      "method": "create",
+      "schema": "checkout.session",
+      "operationId": "PostCheckoutSessions"
+    }
+  ]
+}
